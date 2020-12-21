@@ -14,7 +14,7 @@
                 <div class="carousel-item active">
                  <img src="{{ url_for('static', filename='img/crousel3.jpg') }}" class="d-block w-100 h-50px" alt="...">
                     <div class="carousel-caption  d-md-block">
-                        <h5>Female Voice Over Artist In Mumbai </h5>
+                        <h5><b>FEMALE VOICE OVER ARTIST IN MUMBAI</b> </h5>
 <!--                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                  <div class="carousel-item">
                     <img src="{{ url_for('static', filename='img/crousel1.jpg') }}" class="d-block w-100 h-50px" alt="...">
                     <div class="carousel-caption  d-md-block">
-                        <h5> Request a quote on Whatsapp </h5>
+                        <h5><b>REQUEST QUOTE ON WHATSAPP</b> </h5>
 <!--                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
                     </div>
                  </div>
@@ -31,7 +31,7 @@
                  <div class="carousel-item">
                     <img src="{{ url_for('static', filename='img/crousel2.jpg') }}" class="d-block w-100 h-50px" alt="...">
                     <div class="carousel-caption  d-md-block">
-                        <h5> Request a quote on Whatsapp </h5>
+                        <h5><b> WE PROVIDE BEST VOICE OVER</b> </h5>
 <!--                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
                      </div>
                  </div>
@@ -43,55 +43,85 @@
     </div>
 
 
+    <a href="https://api.whatsapp.com/send?
+         phone=7208120020
+         &text="
+   		 class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- CSS -->
+<style>
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  h3{
+    color:white;
+    font-weight: bold;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+   </style>
 
 
-<!--Div where the WhatsApp will be rendered-->
-<a  href="https://wa.me/917208120020"><div id="WAButton"> </div></a>
-
-<hr>
-<div class="container">
+<div class="container" style="background-color: black;">
   <div class="jumbotron">
 <!--    <h1>My First Bootstrap Page</h1>-->
 <!--    <p>Resize this responsive page to see the effect!</p>-->
   </div>
-  <div class="row">
+  <div class="row" >
     <div class="col-sm-4">
-      <h3>Requirement for voice over</h3>
-     <ol>
-         <li> Script and Dialogues</li>
+     <h3>REQUIREMENT FOR VOICE OVER</h3>
+     <ol style="color: white;">
+         <i><li> Script and Dialogues</li>
          <li> Language </li>
          <li> Time Duration</li>
-         <li> Accent required for voice</li>
+         <li> Accent required for voice</li></i>
 
      </ol>
     </div>
+    
     <div class="col-sm-4">
-      <h3>Charges</h3>
-      <p> Kindly send the above mentioned requirements
-         we will let you know the fee for recording </p>
+      <h3>CHARGE</h3>
+      <p style="color: white; "> <i>Kindly send the above mentioned requirements
+         we will let you know the fee for recording </i></p>
 <!--      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>-->
     </div>
+    
     <div class="col-sm-4">
-      <h3>Terms & condition</h3>
-       <ul>
-         <li> Editing will be done by the client we are not responsible for any kind of editing</li>
+      <h3 >TERMS & CONDITIONS</h3>
+       <ul style="color: white;">
+        <i> <li> Editing will be done by the client we are not responsible for any kind of editing</li>
          <li> 50% of payment in advance and balance amount on the time of delivery  </li>
          <li> Payment will be taken via Google pay or Phone pay</li>
-         <li> Our moto your Success</li>
+         <li> Our moto your Success</li></i>
 
      </ul>
 
-
+<hr>
     </div>
       <div class="col-sm-4">
-      <h3>Portfolio</h3>
+      <h3>HINDI</h3>
 <!--     <iframe width="560" height="315" src="https://www.youtube.com/embed/fHcpbn183TE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
      <div class="embed-responsive embed-responsive-4by3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fHcpbn183TE"></iframe>
     </div>
     </div>
       <div class="col-sm-4">
-      <h3>Portfolio</h3>
+      <h3>ENGLISH</h3>
 <!--     <iframe width="560" height="315" src="https://www.youtube.com/embed/fHcpbn183TE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
      <div class="embed-responsive embed-responsive-4by3">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XJVH479e6Sk"></iframe>
@@ -101,17 +131,6 @@
   </div>
 </div>
 
-
-<!--JQuery-->
-<!--Jquery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<!--Floating WhatsApp css-->
-<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-<!--Floating WhatsApp javascript-->
-<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
-
-
-<script type="text/javascript" src="{{ url_for('static', filename='js/whatsapp.js')}}"> </script>
 
 
 {% endblock  %}

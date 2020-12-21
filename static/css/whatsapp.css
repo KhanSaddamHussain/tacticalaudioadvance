@@ -1,0 +1,13 @@
+.whatsapp {
+    position: float;
+    right: 0px;
+    top: 52%;
+}
+.whatsapp h5 {
+    color:#20da0b;
+    /* color: white; */
+    background: white;
+    /* background: #20da0b; */
+    padding: 12px;
+    border-radius: 10px;
+}
